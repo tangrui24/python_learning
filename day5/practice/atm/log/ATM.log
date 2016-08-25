@@ -1,0 +1,56 @@
+localhost 2016-02-18 21:33:54 - info entering ATM
+001 2016-02-18 21:33:54 - info logging
+localhost 2016-02-18 21:35:03 - info entering ATM
+001 2016-02-18 21:35:03 - info logging
+001 2016-02-18 21:35:03 - info withdraw-100
+001 2016-02-18 21:35:03 - info repay+100
+001 2016-02-18 21:35:03 - error transfer account nonexistent
+001 2016-02-18 21:35:03 - error transfer Balance Insufficient
+001 2016-02-18 21:35:03 - info transfer-1000
+002 2016-02-18 21:35:03 - info transfer-1000
+001 2016-02-18 21:35:03 - info audit_account
+root 2016-02-18 21:35:03 - info Exit ATM
+localhost 2016-02-18 21:38:12 - info entering ATM
+001 2016-02-18 21:38:12 - info logging
+001 2016-02-18 21:38:12 - info repay+10
+001 2016-02-18 21:38:12 - error transfer account nonexistent
+001 2016-02-18 21:38:12 - info transfer-10
+002 2016-02-18 21:38:12 - info transfer-10
+001 2016-02-18 21:38:12 - info audit_account
+root 2016-02-18 21:38:12 - info Exit ATM
+localhost 2016-02-18 21:38:12 - info entering Mall
+haha 2016-02-18 21:38:12 - info logging
+localhost 2016-02-18 21:38:12 - info entering Mall
+haha 2016-02-18 21:38:12 - info logging
+001 2016-02-18 21:38:12 - info logging
+001 2016-02-18 21:38:12 - info Exit MALL
+localhost 2016-02-18 21:38:12 - info entering Manager
+root 2016-02-18 21:38:12 - info logging
+root 2016-02-18 21:38:12 - info Exit Manager
+localhost 2016-02-18 21:38:12 - info entering Manager
+root 2016-02-18 21:38:12 - info logging
+root 2016-02-18 21:38:12 - info audit_atm_record
+root 2016-02-18 21:38:12 - warning chang_user_pwd:haha
+root 2016-02-18 21:38:12 - info add_shop_user:hoho
+root 2016-02-18 21:38:12 - info add_atm_user:003
+root 2016-02-18 21:38:12 - warning lock_user:haha
+root 2016-02-18 21:38:12 - warning unlock_user:haha
+root 2016-02-18 21:38:12 - info search_shop_user:haha
+root 2016-02-18 21:38:12 - info search_shop_user:hoho
+root 2016-02-18 21:38:12 - warning del_user:hoho
+root 2016-02-18 21:38:12 - warning del_user:003
+root 2016-02-18 21:38:12 - warning chang_atm_user_credit:001
+root 2016-02-18 21:38:12 - info search_atm_user:001
+root 2016-02-18 21:38:12 - info audit_atm_record
+root 2016-02-18 21:38:12 - info Exit Manager
+localhost 2016-02-18 21:38:12 - info exit
+localhost 2016-02-18 22:32:26 - info entering ATM
+localhost 2016-02-18 22:33:12 - info entering ATM
+localhost 2016-02-18 22:33:49 - info entering ATM
+localhost 2016-02-18 22:34:16 - info entering ATM
+001 2016-02-18 22:34:16 - info logging
+localhost 2016-02-22 21:09:05 - info entering ATM
+001 2016-02-22 21:09:05 - info logging
+001 2016-02-22 21:09:05 - info audit_account
+001 2016-02-22 21:09:05 - info repay+200
+001 2016-02-22 21:09:05 - info audit_account

@@ -1,0 +1,15 @@
+test2:
+  #bind_hosts:
+  #  - h1
+  #  - h2
+  user_profiles:
+    - rain
+    - alex
+
+test1:
+  #bind_hosts:
+  #  - h1
+  #  - ubuntu test
+  user_profiles:
+    - alex
+

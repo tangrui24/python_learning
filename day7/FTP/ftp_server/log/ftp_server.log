@@ -1,0 +1,95 @@
+
+
+2016-03-10 10:34:42,340 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-10 10:34:45,162 - 127.0.0.1 - INFO - AUTH_PASS
+2016-03-10 10:34:45,162 - 127.0.0.1 - INFO - user: koka has passed authentication!
+2016-03-10 10:34:47,161 - 127.0.0.1 - INFO - client 127.0.0.1 close the session
+2016-03-10 10:34:47,162 - 127.0.0.1 - ERROR - [WinError 10038] 在一个非套接字上尝试了一个操作。
+2016-03-10 10:35:11,677 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-10 10:35:14,425 - 127.0.0.1 - INFO - AUTH_PASS
+2016-03-10 10:35:14,426 - 127.0.0.1 - INFO - user: koka has passed authentication!
+2016-03-10 10:35:18,594 - 127.0.0.1 - INFO - 接收客户端下载文件请求: get|nb.txt|0
+2016-03-10 10:35:18,595 - 127.0.0.1 - INFO - 下载文件信息：文件大小：22 md5: 06b28cd0f8186ad5a4d9af8d25125df7
+2016-03-10 10:35:18,596 - 127.0.0.1 - INFO - SERVER_READY_TO_SENT
+2016-03-10 10:35:18,597 - 127.0.0.1 - INFO - ---- sent file done -------
+2016-03-10 10:35:54,281 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-10 10:35:57,153 - 127.0.0.1 - INFO - AUTH_PASS
+2016-03-10 10:35:57,153 - 127.0.0.1 - INFO - user: akok has passed authentication!
+2016-03-10 10:36:00,025 - 127.0.0.1 - INFO - \test:SWITCH_DIR_SUCCESS
+2016-03-10 10:36:05,129 - 127.0.0.1 - WARNING - SWITCH_DIR_FAILED
+2016-03-10 10:36:07,089 - 127.0.0.1 - WARNING - SWITCH_DIR_FAILED
+2016-03-10 10:36:14,249 - 127.0.0.1 - INFO - 接收客户端下载文件请求: get|npp.exe|0
+2016-03-10 10:36:14,361 - 127.0.0.1 - INFO - 下载文件信息：文件大小：7410324 md5: 8f1272389ef38a62bb988b69396228c5
+2016-03-10 10:36:14,361 - 127.0.0.1 - INFO - SERVER_READY_TO_SENT
+2016-03-10 10:36:14,573 - 127.0.0.1 - INFO - ---- sent file done -------
+2016-03-10 10:36:22,304 - 127.0.0.1 - INFO - client 127.0.0.1 close the session
+2016-03-10 10:36:22,305 - 127.0.0.1 - ERROR - [WinError 10038] 在一个非套接字上尝试了一个操作。
+2016-03-10 10:41:15,492 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-10 10:41:19,903 - 127.0.0.1 - INFO - AUTH_PASS
+2016-03-10 10:41:19,903 - 127.0.0.1 - INFO - user: koka has passed authentication!
+2016-03-10 10:41:27,920 - 127.0.0.1 - INFO - 接收客户端上传文件请求：put|npp.exe|7410324|8f1272389ef38a62bb988b69396228c5
+2016-03-10 10:41:27,924 - 127.0.0.1 - INFO - SERVER_READ_TO_RECV
+2016-03-10 10:41:28,997 - 127.0.0.1 - INFO - ---- recv file done starting check md5 -------
+2016-03-10 10:41:29,036 - 127.0.0.1 - INFO - UPLOAD SUCCESS
+2016-03-10 10:41:29,036 - 127.0.0.1 - INFO - ---- check done -------
+2016-03-10 10:41:31,568 - 127.0.0.1 - INFO - 接收客户端下载文件请求: get|npp.exe|0
+2016-03-10 10:41:31,610 - 127.0.0.1 - INFO - 下载文件信息：文件大小：7410324 md5: 8f1272389ef38a62bb988b69396228c5
+2016-03-10 10:41:31,610 - 127.0.0.1 - INFO - SERVER_READY_TO_SENT
+2016-03-10 10:41:31,710 - 127.0.0.1 - INFO - ---- sent file done -------
+2016-03-10 10:41:41,198 - 127.0.0.1 - INFO - client 127.0.0.1 close the session
+2016-03-10 10:41:41,199 - 127.0.0.1 - ERROR - [WinError 10038] 在一个非套接字上尝试了一个操作。
+2016-03-10 10:48:14,050 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-10 10:48:17,124 - 127.0.0.1 - ERROR - USERNAME_OR_PASSWORD_ERROR
+2016-03-10 10:48:17,124 - 127.0.0.1 - INFO - user: exit has passed authentication!
+2016-03-10 10:48:19,300 - 127.0.0.1 - ERROR - USERNAME_OR_PASSWORD_ERROR
+2016-03-10 10:48:19,300 - 127.0.0.1 - INFO - user: dadah has passed authentication!
+2016-03-10 10:48:21,107 - 127.0.0.1 - ERROR - USERNAME_OR_PASSWORD_ERROR
+2016-03-10 10:48:21,108 - 127.0.0.1 - INFO - user: fhafha has passed authentication!
+2016-03-10 14:52:55,705 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-10 14:52:58,932 - 127.0.0.1 - INFO - AUTH_PASS
+2016-03-10 14:52:58,932 - 127.0.0.1 - INFO - user: koka has passed authentication!
+2016-03-10 14:53:05,348 - 127.0.0.1 - WARNING - LSFILE FAILED
+2016-03-10 14:53:09,998 - 127.0.0.1 - INFO - \1:SWITCH_DIR_SUCCESS
+2016-03-10 14:53:14,028 - 127.0.0.1 - INFO - 接收客户端下载文件请求: get|npp.exe|0
+2016-03-10 14:53:14,114 - 127.0.0.1 - INFO - 下载文件信息：文件大小：7410324 md5: 8f1272389ef38a62bb988b69396228c5
+2016-03-10 14:53:14,115 - 127.0.0.1 - INFO - SERVER_READY_TO_SENT
+2016-03-10 14:53:14,341 - 127.0.0.1 - INFO - ---- sent file done -------
+2016-03-10 14:53:19,059 - 127.0.0.1 - INFO - 接收客户端下载文件请求: get|2|0
+2016-03-10 14:53:19,060 - 127.0.0.1 - WARNING - FILE_DOESNT_ESXIT_OR_WITHOUT_HOMEDIR
+2016-03-10 14:53:22,676 - 127.0.0.1 - INFO - \1\2:SWITCH_DIR_SUCCESS
+2016-03-10 14:53:25,940 - 127.0.0.1 - INFO - :SWITCH_DIR_SUCCESS
+2016-03-10 14:53:41,665 - 127.0.0.1 - INFO - 接收客户端上传文件请求：put|npp.exe|7410324|8f1272389ef38a62bb988b69396228c5
+2016-03-10 14:53:41,698 - 127.0.0.1 - INFO - SERVER_READ_TO_RECV
+2016-03-10 14:53:42,579 - 127.0.0.1 - INFO - ---- recv file done starting check md5 -------
+2016-03-10 14:53:42,634 - 127.0.0.1 - INFO - UPLOAD SUCCESS
+2016-03-10 14:53:42,635 - 127.0.0.1 - INFO - ---- check done -------
+2016-03-10 14:53:48,740 - 127.0.0.1 - INFO - client 127.0.0.1 close the session
+2016-03-10 14:53:48,757 - 127.0.0.1 - ERROR - [WinError 10038] 在一个非套接字上尝试了一个操作。
+2016-03-11 11:02:08,955 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-11 11:02:11,686 - 127.0.0.1 - INFO - AUTH_PASS
+2016-03-11 11:02:11,687 - 127.0.0.1 - INFO - user: koka has passed authentication!
+2016-03-11 11:02:14,847 - 127.0.0.1 - INFO - \1:SWITCH_DIR_SUCCESS
+2016-03-11 11:02:15,721 - 127.0.0.1 - INFO - \1\2:SWITCH_DIR_SUCCESS
+2016-03-11 11:02:17,141 - 127.0.0.1 - INFO - :SWITCH_DIR_SUCCESS
+2016-03-11 11:02:19,053 - 127.0.0.1 - INFO - \1:SWITCH_DIR_SUCCESS
+2016-03-11 11:02:27,921 - 127.0.0.1 - INFO - 接收客户端下载文件请求: get|npp.exe|0
+2016-03-11 11:02:27,991 - 127.0.0.1 - INFO - 下载文件信息：文件大小：7410324 md5: 8f1272389ef38a62bb988b69396228c5
+2016-03-11 11:02:27,991 - 127.0.0.1 - INFO - SERVER_READY_TO_SENT
+2016-03-11 11:02:29,782 - 127.0.0.1 - INFO - ---- sent file done -------
+2016-03-11 11:03:07,925 - 127.0.0.1 - INFO - \1\2:SWITCH_DIR_SUCCESS
+2016-03-11 11:03:21,073 - 127.0.0.1 - ERROR - [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+2016-03-11 11:03:21,417 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet2016-03-11 11:09:54,319 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-11 11:09:58,548 - 127.0.0.1 - INFO - AUTH_PASS
+2016-03-11 11:09:58,548 - 127.0.0.1 - INFO - user: akok has passed authentication!
+2016-03-11 11:10:01,772 - 127.0.0.1 - INFO - \test:SWITCH_DIR_SUCCESS
+2016-03-11 11:12:47,081 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-11 11:12:50,521 - 127.0.0.1 - INFO - AUTH_PASS
+2016-03-11 11:12:50,522 - 127.0.0.1 - INFO - user: koka has passed authentication!
+2016-03-11 11:12:53,392 - 127.0.0.1 - INFO - client 127.0.0.1 close the session
+2016-03-11 11:12:53,393 - 127.0.0.1 - ERROR - [WinError 10038] 在一个非套接字上尝试了一个操作。
+
+2016-03-11 11:15:49,732 - 127.0.0.1 - INFO - welcome 127.0.0.1 client to connet
+2016-03-11 11:15:52,223 - 127.0.0.1 - INFO - AUTH_PASS
+2016-03-11 11:15:52,223 - 127.0.0.1 - INFO - user: koka has passed authentication!
+2016-03-11 11:15:53,043 - 127.0.0.1 - INFO - client 127.0.0.1 close the session
+2016-03-11 11:15:53,044 - 127.0.0.1 - ERROR - [WinError 10038] 在一个非套接字上尝试了一个操作。

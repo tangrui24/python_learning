@@ -1,0 +1,6 @@
+g4:
+  hostuser_list:
+    - appmon@h1
+    - work@h2
+  user_profile:
+    - op2

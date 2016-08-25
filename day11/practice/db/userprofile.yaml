@@ -1,0 +1,16 @@
+op1:
+  password: 123456
+  groups:
+    - g1
+  hostuser_list:
+    - root@h1
+
+op2:
+  password: 123456
+  groups:
+    - g2
+  hostuser_list:
+    - root@h2
+
+
+

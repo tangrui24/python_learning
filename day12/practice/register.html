@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <title>WLGC用户注册</title>
+    <link rel="icon" href="favicon.ico">
+    <style>
+        .reg-main {
+            width: 1050px;
+            margin: 10px auto;
+            height:500px;
+            padding: 35px 0 63px 0;
+            overflow: hidden;
+        }
+        .phr-m-l {
+            float:left;
+            height: 450px;
+            padding: 22px 350px 0px 350px;
+            border: 2px #337ab7 solid;
+        }
+        .field {
+            height: 50px;
+            line-height: 30px;
+            font-size: 14px;
+            display: block;
+            margin: 10px ;
+            overflow: hidden;
+            position: relative;
+        }
+        .lb {
+            color: #333;
+            height: 32px;
+            float: left;
+            margin: 5px 0px;
+            padding: 0px;
+            line-height: 28px;
+            display: inline-block;
+            text-align: right;
+        }
+        .inp_text {
+            height: 32px;
+            width: 250px;
+            font-size: 14px;
+            margin: 5px;
+            float: right;
+            border: 1px solid #bfbfbf;
+            line-height: 32px;
+        }
+        .inp_checkbox{
+            height: 32px;
+            margin: 8px 0px 0px 25px;
+            float: left;
+        }
+        .sel{
+            height: 32px;
+            line-height: 32px;
+            width: 70px;
+            margin: 5px 0px 0px 25px;
+            float: left;
+        }
+        .login {
+            background-color: #e4393c;
+            padding: 8px 20px;
+            margin: 10px;
+            width: 326px;
+            color: white;
+            text-align: center;
+            border: 1px solid #e4393c;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header_logo"></div>
+        <div class="header_res">|注册WLGC帐号</div>
+    </div>
+    <div class="reg-main">
+        <form>
+            <div class="phr-m-l">
+                <div class="field">
+                    <label for="username" class="lb">用户名:</label>
+                    <input class="inp_text" id="username" name="username" type="text" placeholder="请输入用户名" autocomplete="off">
+                </div>
+                <div class="field">
+                    <label for="password" class="lb">密 码:</label>
+                    <input class="inp_text" id="password" name="password" type="password" placeholder="请输入密码" autocomplete="off">
+                </div>
+                <div class="field">
+                    <label for="confpassword" class="lb">确认密码:</label>
+                    <input class="inp_text" id="confpassword" name="confpassword" type="password" placeholder="请再次输入密码" autocomplete="off">
+                </div>
+                <div class="field">
+                    <label class="lb">性 别:</label>
+                    <div class="inp_checkbox">
+                        <label for="man">男</label>
+                        <input  id="man" name="gender" type="radio" autocomplete="off">
+                        <label for="woman">女</label>
+                        <input  id="woman" name="gender" type="radio" autocomplete="off">
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="lb">省  份:</label>
+                    <select class="sel">
+                        <optgroup label='河北省'>
+                            <option>石家庄</option>
+                            <option>邯郸</option>
+                        </optgroup>
+                        <optgroup label='山西省'>
+                            <option>太原</option>
+                            <option>平遥</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="field">
+                    <label class="lb">爱 好:</label>
+                    <div class="inp_checkbox">
+                        <label for="walk">walk</label>
+                        <input name="favor" type="checkbox" id="walk" autocomplete="off">
+                        <label for="movie">movie</label>
+                        <input name="favor" type="checkbox" id="movie" autocomplete="off">
+                        <label for="linux">linux</label>
+                        <input name="favor" type="checkbox" id="linux" autocomplete="off">
+                    </div>
+                </div>
+                <input class="login" type="submit" value="注册"/>
+            </div>
+        </form>
+    </div>
+    <div class="links">
+        <a href="#">关于我们|</a>
+        <a href="#">广告服务|</a>
+        <a href="#">版权指引|</a>
+        <a href="#">举报|</a>
+        <a href="#">使用帮助|</a>
+        <a href="#">提供建议|</a>
+        <a href="#">用户协议|</a>
+        <a href="#">推广合作|</a>
+        <a href="#">招聘信息|</a>
+        <a href="#">客服中心|</a>
+        <a href="#">用户体验中心</a>
+    </div>
+    <div style="text-align: center;margin:0px 0px 50px 0px" >©2010 WLGC </div>
+
+</body>
+</html>

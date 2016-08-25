@@ -1,0 +1,16 @@
+user1:
+  auth_type: ssh-passwd
+  password: 123456
+  hostname:
+    - h1
+
+user2:
+  auth_type: ssh-passwd
+  password: 123456
+  hostname:
+    - h1
+user3:
+  auth_type: ssh-passwd
+  password: 123456
+  hostname:
+    - h1
