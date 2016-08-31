@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/login.css">
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css">
+<title>Log in | Django site admin</title>
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+<body class=" login" data-admin-utc-offset="28800">
+
+<!-- Container -->
+    <div id="container">
+        <!-- Header -->
+        <div id="header">
+            <div id="branding">
+                <h1 id="site-name"><a href="">Crm信息管理系统</a></h1>
+            </div>
+        </div>
+        <div id="content" class="colM">
+            <div id="content-main">
+                <label style="color: red">{{ log_error }}</label>
+                <form action="" href="/crm/" method="post" id="login-form">{% csrf_token %}
+                <div class="form-row">
+                <label class="required" for="id_username">Username:</label> <input id="id_username" name="username" type="text">
+            </div>
+                <div class="form-row">
+                    <label class="required" for="id_password">Password:</label> <input id="id_password" name="password" type="password">
+                    <input type="hidden" name="next" value="/crm/">
+                </div>
+                <div class="submit-row">
+                    <label>&nbsp;</label><input type="submit" value="Log in">
+                </div>
+            </form>
+            </div>
+            <br class="clear">
+        </div>
+        <!-- END Content -->
+        <div id="footer"></div>
+    </div>
+<!-- END Container -->
+</body>
+</html>

@@ -1,0 +1,241 @@
+﻿
+.all_cat {
+	width: 230px;
+	height:316px;
+	background: #fff;
+	position: absolute;
+	z-index: 10;
+}
+.all_cat .list {
+	height: 100px;
+}
+.all_cat .list .cat {
+	width: 196px;
+	height: 69px;
+	padding: 15px;
+	border-left: solid 4px #fff;
+	border-bottom: solid 1px #eaeaea;
+	position: absolute;
+	z-index: 12;
+}
+.all_cat .list .cat .catName {
+	height: 22px;
+	line-height: 22px;
+	overflow: hidden;
+}
+.all_cat .list .cat .catName .cat1 {
+	background-position: -244px 0;
+}
+.all_cat .list .cat .catName .cat2 {
+	background-position: -244px -22px;
+}
+.all_cat .list .cat .catName .cat3 {
+	background-position: -244px -44px;
+}
+.all_cat .list .cat .catName strong {
+	background: url(http://image.meilele.com/images/default/bg3.png) no-repeat;
+	padding-left: 28px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: #333335;
+}
+.all_cat .list .cat .catName strong, .all_cat .list .cat .catName span {
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+}
+
+strong, b {
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+.all_cat .list .cat .catName span {
+	color: #ddd;
+}
+
+.all_cat .list .cat .catList {
+	height: 47px;
+	margin-top: 3px;
+	width: 186px;
+}
+
+
+
+.all_cat .list.hover .cat {
+	width: 196px;
+	border-left-color: #cc2e2d;
+	border-top: solid 1px #bcbcbc;
+	border-bottom: solid 1px #bcbcbc;
+	border-right: solid 1px #fff;
+	overflow: hidden;
+	background: #fff;
+}
+.all_cat .otherMenu .specal_zone dt strong {
+	background: url("http://image.meilele.com/images/default/bg3.png") no-repeat;
+	font-size: 14px;
+	padding-left: 28px;
+	font-family: "微软雅黑";
+	color: #cd0100;
+	background-position: -251px -229px;
+	_background-position: -251px -228px;
+}
+.all_cat .otherMenu {
+	height: 50px;
+	padding: 14px 15px;
+	border-bottom: solid 1px #eaeaea;
+}
+dl {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+.all_cat .otherMenu .specal_zone dd {
+	padding-top: 5px;
+}
+.all_cat .otherMenu .light {
+	font-weight: bold;
+	color: #cd0100;
+}
+.all_cat .otherMenu a {
+	display: inline-block;
+	line-height: 24px;
+	padding: 0 6px 0 6px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+}
+.all_cat a {
+	text-decoration: none;
+	color: #333;
+}
+.all_cat a:hover {
+	color: #f60!important;
+	text-decoration: underline;
+}
+.all_cat .list .hideMap .topMap .subCat .item .dd a {
+	color: #656565;
+}
+.all_cat .list .cat .catList a {
+	display: inline-block;
+	line-height: 22px;
+	color: #676767;
+}
+.all_cat dd {
+	display: block;
+	-webkit-margin-start: 0px;
+	margin-right:0px;
+}
+.all_cat .list.hover .hideMap {
+	display: block;
+}
+
+
+.all_cat .list .hideMap {
+	width: 750px;
+	border: solid 1px #bcbcbc;
+	box-shadow: 1px 1px 8px #999;
+	background: #fff;
+	position: absolute;
+	z-index: 11;
+	left: 230px;
+	top: 0;
+	display: none;
+}
+
+.all_cat .list .hideMap .topMap .subCat {
+	width: 490px;
+	padding-top: 25px;
+	float: left;
+}
+.all_cat .list .hideMap .topMap .subCat .col {
+	width: 245px;
+	float: left;
+}
+.all_cat .list .hideMap .topMap .subCat .item {
+	width: 220px;
+	padding: 20px 0 0 25px;
+	float: left;
+}
+.all_cat .list .hideMap .topMap .subCat .item .dt {
+	padding-bottom: 3px;
+	border-bottom: solid 2px #333;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 微软雅黑;
+}
+.all_cat .list .hideMap .topMap .subCat .item .dd {
+	margin-top: 10px;
+	line-height: 20px;
+	color: #e4e4e4;
+	overflow: hidden;
+}
+
+.clearfix::after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.all_cat .list .hideMap .topMap .ad {
+	width: 250px;
+	height: 370px;
+	overflow: hidden;
+	float: right;
+}
+img {
+	background: #eee;
+	overflow: hidden;
+	vertical-align: top;
+}
+.all_cat .list .hideMap .bottomMap {
+	height: 88px;
+	background: #f9f9f9;
+	border-top: solid 1px #f2f2f2;
+}
+.all_cat .list .hideMap .bottomMap .brand {
+	height: 72px;
+	padding: 8px 0;
+	float: left;
+}
+ol, ul {
+	list-style: none;
+}
+.all_cat .list .hideMap .bottomMap .brand .li {
+	width: 85px;
+	height: 72px;
+	padding: 0 25px;
+	border-right: dashed 1px #e8e8e8;
+	text-align: center;
+	float: left;
+}
+.all_cat .list .hideMap .bottomMap .brand .img {
+	height: 50px;
+	overflow: hidden;
+}
+.all_cat .list .hideMap .bottomMap .brand .name {
+	height: 22px;
+	line-height: 22px;
+	font-size: 14px;
+	font-family: 微软雅黑;
+	color: #848482;
+	font-weight: bold;
+}
+.all_cat .list .hideMap .bottomMap .go {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	background: #d0d0d0;
+	color: #fff;
+	text-decoration: none;
+	float: right;
+	padding: 0 28px;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	margin: 29px 30px 0 0;
+}

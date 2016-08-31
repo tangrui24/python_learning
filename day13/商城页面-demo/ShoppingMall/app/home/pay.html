@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>垂标网</title>
+    <link href="../../css/common.css" rel="stylesheet" />
+    <link href="../../css/pg-header.css" rel="stylesheet" />
+    <link href="../../css/pg-bottom.css" rel="stylesheet" />
+    <link href="../../css/icon.css" rel="stylesheet" />
+    <link href="../../css/bookscart.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="pg-header">
+    <div class="header-top">
+        <div class="container bg">
+            <ul class="top-left">
+                <li>*<a>收藏本站</a></li>
+            </ul>
+            <ul class="top-right">
+                <li><a href='/account/login'>登录</a></li>
+                <li><a href='/account/register'>免费注册</a></li>
+                <li><a href='/account/manage'>我的订单</a></li>
+                <li><a>我的收藏</a></li>
+                <li><a>VIP 会员俱乐部</a></li>
+                <li class="menu" onmouseover="show_menu(this);" onmouseout="hide_menu(this)">
+                    <span>客户服务<i class="triangle down"></i></span>
+                    <div class="hide" style="position:relative;">
+                        <ul class="help-menu">
+                            <li><a href="/article_cat-6/article-101.html" target="_blank" title="购买流程" rel="nofollow">购买流程</a></li>
+                            <li><a href="/article_cat-6/article-646.html" onclick="" target="_blank" title="在线帮助" rel="nofollow">在线帮助</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a>关注</a></li>
+                <li><a>手机版</a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<div class='pg-header-s'>
+    <div class='s-contaner clearfix'>
+        <div class='logo left'>
+            <a href='/home/index'>
+                <img src='../../images/mll_logo.gif' />
+            </a>
+        </div>
+        <div class='progress right'></div>
+    </div>
+</div>
+
+<div class='pg-content-s'>
+    <div class='s-contaner'>
+        <div class='cart-group'>
+            <div class='group-head'>我的购物车</div>
+            <div class='group-body'>
+                <div class='title clearfix'>
+                    <div class='column t-checkbox'>全选</div>
+                    <div class='column t-goods'>商品</div>
+                    <div class='column t-price'>价格</div>
+                    <div class='column t-inventory'>状态</div>
+                    <div class='column t-quantity'>数量</div>
+                    <div class='column t-action'>操作</div>
+                </div>
+                <div class='content'>
+                    <div class='item clearfix'>
+                        <div class='cell p-checkbox'>
+                            <input class="checkbox" type="checkbox" name="checkItem" value="10062788-1">
+                        </div>
+                        <div class='cell p-goods'>
+                            <div class="p-img left">
+                                <img src="http://img10.360buyimg.com/n5/g12/M00/0B/1C/rBEQYVGmwDYIAAAAAACljqv80AkAACUngByvjEAAKWm781.jpg" alt="Python核心编程（第2版）">
+                            </div>
+                            <div class="p-name left">
+                                <a href="http://item.jd.com/10062788.html" target="_blank">Python核心编程（第2版）</a>
+                            </div>
+                        </div>
+                        <div class='cell p-price'>
+                            <span class="price">¥66.30</span>
+                        </div>
+                        <div class='cell p-inventory '>有货</div>
+                        <div class='cell p-quantity'></div>
+                        <div class='cell p-remove'>
+                            <a href='http://www.baidu.com'>删除</a>
+                        </div>
+                    </div>
+
+                    <div class='item clearfix selected'>
+                        <div class='cell p-checkbox'>
+                            <input class="checkbox" type="checkbox" name="checkItem" value="10062788-1">
+                        </div>
+                        <div class='cell p-goods'>
+                            <div class="p-img left">
+                                <img src="http://img10.360buyimg.com/n5/g12/M00/0B/1C/rBEQYVGmwDYIAAAAAACljqv80AkAACUngByvjEAAKWm781.jpg" alt="Python核心编程（第2版）">
+                            </div>
+                            <div class="p-name left">
+                                <a href="http://item.jd.com/10062788.html" target="_blank">Python核心编程（第2版）</a>
+                            </div>
+                        </div>
+                        <div class='cell p-price'>
+                            <span class="price">¥66.30</span>
+                        </div>
+                        <div class='cell p-inventory '>有货</div>
+                        <div class='cell p-quantity'></div>
+                        <div class='cell p-remove'>
+                            <a href='http://www.baidu.com'>删除</a>
+                        </div>
+                    </div>
+                </div>
+                <div class='item-toolbar clearfix'>
+                    <div class='toolbar-left left'>
+                        <span class='sel-all'>
+                            <a>
+                                <input style='vertical-align: -3px;' type='checkbox' />
+                                <label style='margin-top:-3px;'> 全选</label>
+                            </a>
+                        </span>
+                        <span class='del-all'>
+                            <i></i>
+                            <a>删选选中商品</a>
+                        </span>
+                    </div>
+                    <div class='toolbar-right right'>
+                        <span class='red'>9</span> 件商品
+                    </div>
+                </div>
+
+            </div>
+            <div class='bottom'>
+                <div class='total'>
+                    小计：<span class="finalPrice">¥341.50</span>
+                </div>
+            </div>
+        </div>
+        <div class='consignee-group'>
+            <div class='title'><strong id="consigneeTitleDiv">收货人信息</strong></div>
+            <div class='content'>
+                <p>刘小P   181xxxx5014      </p>
+                <p>河北 石家庄市 裕华区 城区   南二环东路20号，河北师范大学</p>
+            </div>
+        </div>
+        <div class='payment-group'>
+            <div class='title'><strong id="consigneeTitleDiv">支付方式</strong></div>
+            <div class='content'>
+                <p>货到付款</p>
+
+            </div>
+        </div>
+        <div class='delivery-group'>
+            <div class='title'><strong id="consigneeTitleDiv">配送和预约</strong></div>
+            <div class='content'>
+
+                <p>京东快递  中小件商品  预计 10月25日[周六] 9:00-19:00 送达  </p>
+            </div>
+        </div>
+        <div class='submit-order'>
+            <div class='right'>
+                <span class='price-all'>应付总额：  <span class='price'>￥341.50</span>  元</span>
+                <div class='submit right'>提交订单</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pg-bottom">
+    <div class="container bg">
+        <div class="content">
+            <div class="content-left">
+                <h4>24小时服务热线</h4>
+                <p>400 0098666</p>
+                <div class="son-count">截至今日，垂标网在全国已有办事处 <strong class="red">168</strong> 家</div>
+                <a class="look-detail" href="#">查看全国办事处</a>
+            </div>
+            <div class="content-center">
+                <table cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <tr>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">关于垂标网</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-12/article-5224.html" target="_blank" title="公司简介">公司简介</a>
+                                    <a href="/article_cat-12/article-5228.html" target="_blank" title="CEO致辞">CEO致辞</a>
+                                    <a href="/article_cat-12/article-5225.html" target="_blank" title="体验馆">体验馆</a>
+                                    <a href="/article_cat-12/article-830.html" target="_blank" title="诚聘英才">诚聘英才</a>
+                                    <a href="/article_cat-12/article-4615.html" target="_blank" title="联系我们">联系我们</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">新手指南</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-6/article-5404.html" target="_blank" title="注册新用户">注册新用户</a>
+                                    <a href="/article_cat-6/article-101.html" target="_blank" title="订购家具流程">订购家具流程</a>
+                                    <a href="/article_cat-6/article-5280.html" target="_blank" title="体验馆购买指导">体验馆购买指导</a>
+                                    <a href="/article_cat-6/article-624.html" target="_blank" title="付款方式">付款方式</a>
+                                    <a href="/article_cat-6/article-646.html" target="_blank" title="常见问题解答">常见问题解答</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">配送安装</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-23/article-5405.html" target="_blank" title="收货指南">收货指南</a>
+                                    <a href="/article_cat-23/article-3206.html" target="_blank" title="体验馆服务费">体验馆服务费</a>
+                                    <a href="/article_cat-23/article-618.html" target="_blank" title="物流配送">物流配送</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">售后服务</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-26/article-620.html" target="_blank" title="45天无理由退换货">45天无理由退换货</a>
+                                    <a href="/article_cat-26/article-621.html" target="_blank" title="如何申请退款">如何申请退款</a>
+                                    <a href="/article_cat-26/article-2838.html" target="_blank" title="维修补件说明">维修补件说明</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">购物保障</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-15/article-2880.html" target="_blank" title="正品保证">正品保证</a>
+                                    <a href="/article_cat-15/article-300.html" target="_blank" title="注册协议">注册协议</a>
+                                    <a href="/article_cat-15/article-298.html" target="_blank" title="隐私保护">隐私保护</a>
+                                    <a href="/article_cat-15/article-297.html" target="_blank" title="免责声明">免责声明</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+</div>
+
+<script src="../../js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+
+    });
+    function ChangeTab(title, body) {
+        $(title).children().bind("click", function () {
+            $menu = $(this);
+            $content = $(body).find('div[content="' + $(this).attr("content-to") + '"]');
+            $menu.addClass('current').siblings().removeClass('current');
+            $content.removeClass('hide').siblings().addClass('hide');
+        });
+    }
+    function show_menu(arg) {
+        $(arg).find(".down").addClass("up").removeClass("down");
+        $(arg).find(".hide").addClass("show").removeClass("hide");
+    }
+    function hide_menu(arg) {
+        $(arg).find(".up").addClass("down").removeClass("up");
+        $(arg).find(".show").addClass("hide").removeClass("show");
+    }
+</script>
+</body>
+</html>

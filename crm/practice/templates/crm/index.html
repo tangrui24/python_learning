@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block context %}
+    <div id="content" class="colMS">
+    <h1>Site Crm</h1>
+        <div id="content-main">
+            <div class="app-crm module">
+                <table>
+                    <caption>
+                        <a href="/crm" class="section" title="Models in the Crm application">Crm</a>
+                    </caption>
+                    <tbody>
+                    {% for k,v in tables.items %}
+                        <tr class="model-courserecord">
+                            <th scope="row"><a name={{ v }} href="/crm/{{ v }}/">{{ k }}</a></th>
+                            <td><a href="/crm/{{ v }}/add/" class="addlink">Add</a></td>
+                            <td><a href="/crm/{{ v }}/" class="changelink">Change</a></td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br class="clear">
+    </div>
+{% endblock %}

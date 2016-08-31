@@ -1,0 +1,131 @@
+﻿/********底部开始********/
+
+.pg-bottom{
+    background: #f3f3f3;
+    min-height:200px;
+    border-top: solid 1px #e6e6e6; 
+}
+.pg-bottom .bg{
+    background: #f3f3f3;
+}
+.pg-bottom .content{
+    padding:35px 0 20px;
+    overflow:hidden;
+    
+}
+.pg-bottom .content .content-left{
+    float:left;
+    width:199px;
+}
+.pg-bottom .content .content-left h4 {
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    margin-bottom: 2px;
+}
+.pg-bottom .content .content-left p {
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    color: #d70000;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #ccc;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.pg-bottom .content .content-left .son-count {
+    color: #656565;
+    line-height: 20px;
+    padding: 2px 0;
+    width:155px;
+}
+
+.pg-bottom .content .content-left .look-detail {
+    display: inline-block;
+    width: 94px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0 21px 0 24px;
+    text-decoration: none;
+    background: url(/images/bg2.png) 0 -227px no-repeat;
+}
+
+
+.pg-bottom .content .content-center{
+    float:left;
+}
+
+
+ .pg-bottom .content .content-center tr td {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.pg-bottom .content .content-center .line {
+    width: 0;
+    height: 130px;
+    border-left: solid 1px #e7e7e7;
+    border-right: solid 1px #fff;
+    margin: 0 25px;
+}
+.pg-bottom .content .content-center .dl {
+    color: #666;
+}
+.pg-bottom .content .content-center .dl .dt {
+    height: 24px;
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 微软雅黑;
+}
+.pg-bottom .content .content-center .dl .dd {
+    overflow: hidden;
+}
+.pg-bottom .content .content-center dd {
+    display: block;
+    -webkit-margin-start: 0px;
+}
+.pg-bottom .content .content-center .dl .dd a {
+    text-decoration:none;
+    display: block;
+    overflow: hidden;
+    height: 24px;
+    line-height: 24px;
+    color: #656565;
+}
+.pg-bottom .content .content-center .dl .dd a:hover {
+    color: #F60 !important;
+    text-decoration: underline;
+}
+
+
+.pg-bottom .content .content-right{
+    float:right;
+    width: 200px;
+    text-align: center;
+}
+.pg-bottom .content  .content-right h4 {
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    margin-bottom: 2px;
+}
+.pg-bottom .content  .content-right .title{
+    font-size: 15px;
+    font-family: 微软雅黑;
+    margin-bottom: 0px;
+}
+.pg-bottom .content  .content-right .img {
+    margin: 10px 0;
+}
+.pg-bottom .content  .content-right .img img {
+    background: url(../images/bg2.png) 0 -385px no-repeat;
+}
+/********底部结束********/

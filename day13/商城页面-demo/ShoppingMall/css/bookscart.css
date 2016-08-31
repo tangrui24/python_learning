@@ -1,0 +1,260 @@
+﻿body{
+	font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.container,.s-contaner{
+	width: 990px;
+	margin: 0 auto;
+}
+
+
+.pg-header-s{
+	height:83px;
+    padding-top:20px;
+}
+.pg-header-s .logo{
+			
+}
+.pg-header-s .progress{
+	width: 512px;
+	height: 44px;
+	background: url(../images/flow_step.png) 0 0 no-repeat;
+	margin-top: 9px;
+}
+.pg-content-s{
+    padding-bottom:20px;
+}
+.cart-group .group-head{
+	color: #333;
+	font-size:22px;
+	font-weight: bold;
+	font-family: Arial;
+	_font-family: 宋体,Arial;
+	padding:10px 0px;
+}
+.cart-group .group-body{
+	border: 1px solid #ddd;
+	border-top: 2px solid #999;
+}
+.cart-group .group-body .title{
+	height: 35px;
+	background-color: #f7f7f7;
+}
+		
+.cart-group .group-body .title .column{
+	width: 99px;
+	height: 35px;
+	border-right: 1px solid #f7f7f7;
+	float: left;
+	color: #666;
+	line-height: 35px;
+	text-align: center;
+			
+}
+.cart-group .group-body .title .t-goods{
+	width: 329px;
+}
+.cart-group .group-body .title .t-price{
+	width: 138px;
+	text-align: right;
+}
+.cart-group .group-body .title  .t-inventory{
+	width: 129px;
+}
+.cart-group .group-body .title  .t-quantity{
+	width: 147px;
+}
+.cart-group .group-body .title  .t-action{
+	width: 140px;
+}
+		
+.cart-group .group-body .content{
+	border-bottom: 1px solid #ddd;
+}
+.cart-group .group-body .content .item{
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+}
+.cart-group .group-body .content .selected{
+	background-color: #fffdee!important;
+}
+.cart-group .group-body .content .item .cell{
+	float: left;
+	min-height: 52px;
+	height: auto!important;
+}
+.cart-group .group-body .content .item input{
+	margin: 20px 0 0 19px;
+	float: left;
+	display: inline;
+}
+.cart-group .group-body .content .item .p-checkbox{
+	width: 66px;
+}
+.cart-group .group-body .content .item .p-goods{
+	width: 364px;
+	overflow: hidden;
+}
+.cart-group .group-body .content .item .p-price {
+	width: 138px;
+	text-align: right;
+	line-height: 52px;
+}
+		
+.cart-group .group-body .content .item .p-inventory {
+	width: 130px;
+	text-align: center;
+	line-height: 52px;
+	color: #999;
+}
+.cart-group .group-body .content .item .p-quantity {
+	width: 147px;
+	height: 22px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.cart-group .group-body .content .item .p-remove {
+	width: 141px;
+	text-align: center;
+	line-height: 52px;
+}
+.cart-group .group-body .content .item .p-remove a{
+	color: #005ea7;
+	text-decoration: none;
+}
+.cart-group .group-body .content .item .p-remove a:hover{
+	text-decoration: underline;
+}
+.cart-group .group-body .content .item .cell .p-img{
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+	padding: 0;
+	float: left;
+	background-color: #fff;
+}
+.cart-group .group-body .content .item .cell .p-name{
+	padding-right: 10px;
+	line-height: 18px;
+	word-break: break-all;
+	word-wrap: break-word;
+			
+}
+.cart-group .group-body .content .item .cell .p-name a{
+	text-decoration: none;
+	color: #005ea7;
+}
+		
+
+.cart-group .group-body .content .item .cell .p-price .price {
+	color: #333;
+	font-family: Verdana,Arial;
+}
+.cart-group .group-body .item-toolbar{
+	height:45px;
+	padding: 5px 10px;
+	line-height: 22px;
+	color: #666;	
+}
+.cart-group .group-body .item-toolbar .toolbar-left{
+	width:400px;
+	line-height: 45px;
+}
+		
+.cart-group .group-body .item-toolbar .toolbar-right{
+	width:400px;
+	margin-right:10px;
+	text-align:right;
+	line-height:45px;
+}
+.cart-group .group-body .item-toolbar .toolbar-right .red{
+	color: #e4393c;
+	font-family: Verdana,Arial;
+}
+.cart-group .group-body .item-toolbar .toolbar-left .sel-all{
+	margin-left: 5px;
+	height:45px;
+}
+.cart-group .group-body .item-toolbar .toolbar-left .del-all{
+	margin-left: 20px;
+}
+.cart-group .group-body .item-toolbar .toolbar-left .del-all i{
+	display: inline-block;
+	vertical-align: middle;
+	width: 14px;
+	height: 14px;
+	background: url(../images/control-icon-20140521.png) no-repeat;
+	margin-right: 5px;
+	background-position: 0 0;
+}
+.cart-group .bottom{
+	color: #666;
+	background-color: #f7f7f7;
+	border: 1px solid #ddd;
+	border-top: 0px;
+	height: 48px;
+	line-height: 48px;
+			
+}
+.cart-group .bottom .total{
+	text-align:right;
+	margin-right:10px;
+}
+.cart-group .bottom .total .finalPrice{
+	vertical-align: middle;
+	color: #e4393c;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Verdana,Arial;
+}
+		
+.consignee-group,.payment-group,.delivery-group,.submit-order{
+	border: 1px solid #ddd;
+	border-top: 0px;
+}
+.consignee-group .title,.payment-group .title,.delivery-group .title{
+	font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+	font-size:14px;
+	color: #000;
+	padding:10px 0 0 10px;
+}
+.consignee-group .content,.payment-group .content,.delivery-group .content{
+		margin:0 45px 15px 45px;
+}
+.submit-order{
+	background-color: #f5f5f5;
+	height: 48px;
+	line-height: 48px;
+}
+.submit-order .right .submit{
+	background-color:#e4393c;
+	height:48px;
+	width:128px;
+	font-size:20px;
+	color:white;
+	text-align:center;
+}
+.submit-order .right{
+	font-size:16px;
+	font-weight:bold;
+}
+.submit-order .right .price-all{
+	padding-right:15px;
+}
+.submit-order .right .price-all .price{
+	vertical-align: middle;
+	color: #e4393c;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Verdana,Arial;
+}

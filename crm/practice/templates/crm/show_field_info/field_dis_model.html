@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load field_handle %}
+{% block context %}
+    <div class="breadcrumbs">
+        <a href="/crm">Home</a>
+        <a  href="/crm/{{ table_name }}/"> {{ table_name }}</a>
+    </div>
+    <div id="content" class="flex">
+        <h1>Select {{ class_verbose_name }} to change</h1>
+        <div id="content-main">
+            <div class="module" id="changelist">
+                <form id="changelist-form" method="get">
+                    <div class="actions">
+                        <label>Actions:
+                            <select name="action">
+                                <option value="delete_selected">deleted_selected</option>
+                                <option value="-------" selected="selected">------------------</option>
+                            </select>
+                        </label>
+                        <button type="button" class="btn btn-default select_options" title="Run the selected action" name="index" value="0">
+                            Go
+                        </button>
+                        <a class="btn btn-default"  href="/crm/{{ table_name }}/add">Add</a>
+                        <label>Search:
+                            <input class="AutoSearch" type="text">
+                        </label>
+                    </div>
+                    <table id="result_list">
+                        <thead>
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="all_selected">
+                            </td>
+                            {% for i in field_verbose_name %}
+                                <td>
+                                    {{ i }}
+                                </td>
+                            {% endfor %}
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for model in model_obj %}
+                            <tr>
+                                <td>
+                                    <input  type="checkbox" />
+                                </td>
+                                {% render_data model field_names %}
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <div class="pagination">
+                <nav>
+                    <ul class="pagination">
+                        {% get_page model_obj.number model_obj.paginator.num_pages %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+{% endblock %}

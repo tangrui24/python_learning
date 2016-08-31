@@ -1,0 +1,203 @@
+﻿.pg-content{
+	background-color:#fcfcfc;
+    font-size: 12px;
+}
+					
+.category{
+	width:232px;
+}
+/*左侧*/
+.category .sub-category{
+    border: 1px solid #DDD;
+}
+.category .sub-category .item{
+    border-bottom:1px dotted #DDD;
+}
+.category .sub-category .item .title{
+   padding:10px;
+}
+.category .sub-category .item .body {
+    padding:0 10px 8px 10px;
+}
+.category .sub-category .item .body  a{
+    margin-right:8px;
+    padding-bottom:10px;
+    font-size:12px;
+    color: #666;
+}
+
+/*右侧*/
+  .search{
+	width:942px;
+}
+  .search .crumb{
+	padding:12px 0px;
+}
+  .search .filter{
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	color: #565656;
+	border-top: 2px solid #c9033b;
+	padding: 0 10px;
+	overflow: hidden;
+}
+  .search .filter dl{
+	border-top: 1px dotted #d7d6d5;
+	margin:0px;
+}
+  .search .filter dl dt{
+	width: 80px;
+	line-height: 22px;
+	padding: 10px 0;
+	color: #333;
+	font-weight: bold;
+	text-align: right;
+	float: left;
+}
+  .search .filter dl dd{
+	width: 830px;
+	margin-left:10px;
+	float: right;
+	padding: 10px 0;
+	line-height: 22px;
+}
+  .search .filter dl dd a{
+	padding:0px 10px;
+    color: #565656;
+}
+  .search  .toggle{
+	height:30px;
+}
+  .search .toggle .bar{
+	height: 4px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+	border-top: 0;
+}
+  .search .toggle .content{
+				
+}
+  .search .toggle .content .nav-box{
+	margin:0 auto;
+	border: 1px solid #ddd;
+	height: 25px;
+	padding: 0 15px 0 15px;
+	border-top: 0;
+	background: white;
+	width:120px;
+	margin-top:-1px;
+	text-align: center;
+}
+
+/*排序*/
+.search .sort{
+    color: #555;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    position: relative;
+}
+.search .sort .box{
+    display: inline-block;
+    height: 35px;
+    padding: 0 10px;
+    line-height: 35px;
+}
+.search .sort .sortarrow {
+    background: url(../images/arrow2.gif) 38px -18px no-repeat;
+    padding-right: 20px;
+}
+.search .sort .sortarrow.aup {
+    background-position: 38px -48px;
+}
+
+.search .sort .item-number{
+    border-right: #e5e5e5 1px solid;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 10px;
+}
+.search .sort .page-number{
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    padding-right: 10px;
+}
+.search .sort .btn {
+    display: inline-block;
+    height: 20px;
+    border: #dcdcdc 1px solid;
+    line-height: 20px;
+    padding: 0 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.search .sort .btn .triangle_prev{
+    background-position: -12px 0;
+    margin-right: 3px;
+}
+.search .sort .btn .triangle_next{
+   background-position: -39px 0;
+    margin-left: 3px;
+}
+/*搜索内容*/
+.search .search-item{
+    float: left;
+    width: 223px;
+    height:250px;
+    overflow: hidden;
+    /*border: 1px solid #fff;*/
+    border: 1px solid red;
+    display: inline;
+    margin: 5px;
+}
+.search .search-item .img{
+    margin:0 auto;
+    width:210px;
+    height:180px;
+    background-color:black;
+    overflow:hidden;
+}
+.search .search-item .info{
+    margin-top:3px;
+    font-size:14px;
+    font-family: "Microsoft Yahei","SimHei";
+    text-align:center;
+}
+ .search .search-item .price-buy{
+    padding-top:8px;
+
+    
+}
+.search .search-item .price-buy .quantity{
+    height:20px;
+    width: 77px; 
+    border: 1px solid #999;
+}
+ 
+.search .search-item .price-buy .quantity  .minus,.search .search-item .price-buy .quantity  .plus{
+  height:20px;
+  width:20px; 
+  line-height:20px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+.search .search-item .price-buy input{
+    height:20px;
+    width:35px;
+    border:0px;
+    border-left:1px solid #999;
+    border-right:1px solid #999;
+ }
+.search .search-item .price-buy .buyit{
+    margin: 0 10px 0 5px;
+    font-weight:bold;
+    color: white;
+    text-align:center;
+    height:22px;
+    width:35px;
+    line-height:20px;
+    background-color:#e4393c;
+}

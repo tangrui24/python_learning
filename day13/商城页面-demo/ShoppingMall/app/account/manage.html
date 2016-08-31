@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>购物商城</title>
+    <link href="../../css/common.css" rel="stylesheet" />
+    <link href="../../css/pg-header.css" rel="stylesheet" />
+    <link href="../../css/pg-bottom.css" rel="stylesheet" />
+    <link href="../../css/icon.css" rel="stylesheet" />
+    <link href="../../css/admin.css" rel="stylesheet" />
+    <link href="../../plugins/bxSlider/jquery.bxslider.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="pg-header">
+    <div class="header-top">
+        <div class="container narrow bg">
+            <ul class="top-left">
+                <li>*<a>收藏本站</a></li>
+            </ul>
+            <ul class="top-right">
+                <li><a href='/account/login'>登录</a></li>
+                <li><a href='/account/register'>免费注册</a></li>
+                <li><a href='/account/manage'>我的订单</a></li>
+                <li><a>VIP 会员俱乐部</a></li>
+                <li class="menu" onmouseover="show_menu(this);" onmouseout="hide_menu(this)">
+                    <span>客户服务<i class="triangle down"></i></span>
+                    <div class="hide" style="position:relative;">
+                        <ul class="help-menu">
+                            <li><a href="/article_cat-6/article-101.html" target="_blank" title="购买流程" rel="nofollow">购买流程</a></li>
+                            <li><a href="/article_cat-6/article-646.html" onclick="" target="_blank" title="在线帮助" rel="nofollow">在线帮助</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="header-head">
+        <div class="container narrow">
+            <div class="head-left left" style='width:200px;'>
+                <div class="logo left">
+                    <img src="../../images/mll_logo.gif" />
+                </div>
+            </div>
+            <div class="head-right right">
+                <div class="search-box left">
+                    <div class="search">
+                        <form id="JS_search_form" action="/category-9999/mcat0-scat0-b0-max0-min0-attr-page-1-sort-sort_order-order-asc.html" method="get" onsubmit="return MLL_header_search_submit();">
+                            <div class="sideShadow"></div>
+                            <input id="JS_MLL_search_header_input" type="text" name="keywords" class="keyWord" value="" autocomplete="off" onfocus="this.value=''" data-onkeyup="return M.searchSuggest.init(this,event);" />
+                            <input type="submit" class="submit" value="" />
+                            <input type="hidden" name="fl" value="q" />
+                        </form>
+                    </div>
+                    <div class="keyword">
+                        <span>热门搜索：</span>
+                        <a href="#">老男孩</a>
+                        <a href="#">老女人</a>
+                    </div>
+                </div>
+                <div class="cart-box left">
+                    <div id="JS_header_cart_handler" class="cart">
+                        <a href="/flow/?step=cart" class="cartLink" target="_blank">
+                            <span class="gray">购物车</span>
+                            <strong class="red cartCount" id="cartInfo_number">2</strong>
+                            <span class="gray">件</span>
+                            <span class="arrow"></span>
+                        </a>
+                        <div id="JS_header_cart_list" class="hideCart" data-status="0">
+                            <div id="noGoods" style="display:none;" class='loadLay' style='color:#626262;'>您的购物车中还没有商品，先去选购吧！</div>
+                            <p>asdfsdf</p>
+                            <p>asdfsdf</p>
+                            <p>asdfsdf</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-nav">
+        <div class="shadow"></div>
+        <div class="container narrow bg">
+            <div class="nav-allgoods left">
+                <a id='all_menu_catagory' href="javascript:;" class="menuEvent">
+                    <strong class="catName">全部商品分类</strong>
+                    <span class="arrow" style='display: inline-block;vertical-align: top;'></span>
+                </a>
+            </div>
+            <div class="nav-allmenu left">
+                <a href="/home/search" title="首页" class="index current">首页</a>
+                <a href="/home/search" title="家具城">家具城</a>
+                <a href="/home/search" title="建材城">建材城</a>
+                <a href="/home/search" title="家纺家饰">家纺家饰</a>
+                <a href="/home/search" target="_blank" title="体验馆">体验馆</a>
+                <a href="/home/search" title="装修网" style="position:relative;" target="_black">装修网<img src="../../images/new4.gif" style="position:absolute;background:none;left:75%;top:-5px;"></a>
+            </div>
+            <div class="nav-extramenu right">
+                <a class="menu" href="/home/search" target="_blank" title="研究院">研究院</a>
+                <a class="menu" href="/home/search" target="_blank" title="求购专">求购专区</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="header-menu">
+        <div class='container narrow hide'>
+            <div id='nav_all_menu' class="menu-catagory">
+                <div class="catagory" float-content='one'>
+                    <div class="title">装修网</div>
+                    <div class="body">
+                        <a href="http://www.baidu.com">橘子</a>
+                        <a href="http://www.baidu.com">苹果</a>
+                        <a href="http://www.baidu.com">火龙果</a>
+                        <a href="http://www.baidu.com">橘子</a>
+                        <a href="http://www.baidu.com">苹果</a>
+                        <a href="http://www.baidu.com">火龙果</a>
+                        <a href="http://www.baidu.com">橘子</a>
+                        <a href="http://www.baidu.com">苹果</a>
+                        <a href="http://www.baidu.com">火龙果</a>
+                    </div>
+                </div>
+                <div class="catagory" float-content='two'>
+                    <div class="title">装修网</div>
+                    <div class="body">
+                        <a href="http://www.baidu.com">橘子</a>
+                        <a href="http://www.baidu.com">苹果</a>
+                        <a href="http://www.baidu.com">火龙果</a>
+                        <a href="http://www.baidu.com">橘子</a>
+                        <a href="http://www.baidu.com">苹果</a>
+                        <a href="http://www.baidu.com">火龙果</a>
+                        <a href="http://www.baidu.com">橘子</a>
+                        <a href="http://www.baidu.com">苹果</a>
+                        <a href="http://www.baidu.com">火龙果</a>
+                    </div>
+                </div>
+                <div class="catagory" float-content='three'>
+                    <div class="title">装修网</div>
+                    <div class="body">
+                        <a href="http://www.baidu.com">橘子</a>
+                        <a href="http://www.baidu.com">苹果</a>
+                        <a href="http://www.baidu.com">火龙果</a>
+                        <a href="http://www.baidu.com">橘子</a>
+                        <a href="http://www.baidu.com">苹果</a>
+                        <a href="http://www.baidu.com">火龙果</a>
+                        <a href="http://www.baidu.com">橘子</a>
+                        <a href="http://www.baidu.com">苹果</a>
+                        <a href="http://www.baidu.com">火龙果</a>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-allmenu_shadow"></div>
+            <div id='nav_all_content' class="menu-content">
+                <div class='item hide' float-id='one'>
+
+                    <dl>
+                        <dt><a href="http://www.meilele.com/category-chufangyongpin/" class="red">厨房用品</a></dt>
+                        <dd>
+                            <span>| <a href="http://www.meilele.com/category-jiaofa/" target="_blank" title="角阀">角阀</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufanglongtou/" target="_blank" title="厨房龙头">厨房龙头</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chupenshuicao/" target="_blank" title="厨盆/水槽">厨盆/水槽</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufangguajian/" target="_blank" title="厨房挂件">厨房挂件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-qitapeijian/" target="_blank" title="其他厨房配件">其他厨房配件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-dingzhichugui/" target="_blank" title="定制橱柜">定制橱柜</a> </span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.meilele.com/category-chufangyongpin/" class="red">厨房用品</a></dt>
+                        <dd>
+                            <span>| <a href="http://www.meilele.com/category-jiaofa/" target="_blank" title="角阀">角阀</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufanglongtou/" target="_blank" title="厨房龙头">厨房龙头</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chupenshuicao/" target="_blank" title="厨盆/水槽">厨盆/水槽</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufangguajian/" target="_blank" title="厨房挂件">厨房挂件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-qitapeijian/" target="_blank" title="其他厨房配件">其他厨房配件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-dingzhichugui/" target="_blank" title="定制橱柜">定制橱柜</a> </span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.meilele.com/category-chufangyongpin/" class="red">厨房用品</a></dt>
+                        <dd>
+                            <span>| <a href="http://www.meilele.com/category-jiaofa/" target="_blank" title="角阀">角阀</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufanglongtou/" target="_blank" title="厨房龙头">厨房龙头</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chupenshuicao/" target="_blank" title="厨盆/水槽">厨盆/水槽</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufangguajian/" target="_blank" title="厨房挂件">厨房挂件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-qitapeijian/" target="_blank" title="其他厨房配件">其他厨房配件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-dingzhichugui/" target="_blank" title="定制橱柜">定制橱柜</a> </span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.meilele.com/category-chufangyongpin/" class="red">厨房用品</a></dt>
+                        <dd>
+                            <span>| <a href="http://www.meilele.com/category-jiaofa/" target="_blank" title="角阀">角阀</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufanglongtou/" target="_blank" title="厨房龙头">厨房龙头</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chupenshuicao/" target="_blank" title="厨盆/水槽">厨盆/水槽</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufangguajian/" target="_blank" title="厨房挂件">厨房挂件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-qitapeijian/" target="_blank" title="其他厨房配件">其他厨房配件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-dingzhichugui/" target="_blank" title="定制橱柜">定制橱柜</a> </span>
+                        </dd>
+                    </dl>
+
+                </div>
+                <div class='item hide' float-id='two'>
+                    <dl>
+                        <dt><a href="http://www.meilele.com/category-chufangyongpin/" class="red">厨房用品</a></dt>
+                        <dd>
+                            <span>| <a href="http://www.meilele.com/category-jiaofa/" target="_blank" title="角阀">角阀</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufanglongtou/" target="_blank" title="厨房龙头">厨房龙头</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chupenshuicao/" target="_blank" title="厨盆/水槽">厨盆/水槽</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufangguajian/" target="_blank" title="厨房挂件">厨房挂件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-qitapeijian/" target="_blank" title="其他厨房配件">其他厨房配件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-dingzhichugui/" target="_blank" title="定制橱柜">定制橱柜</a> </span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.meilele.com/category-chufangyongpin/" class="red">厨房用品</a></dt>
+                        <dd>
+                            <span>| <a href="http://www.meilele.com/category-jiaofa/" target="_blank" title="角阀">角阀</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufanglongtou/" target="_blank" title="厨房龙头">厨房龙头</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chupenshuicao/" target="_blank" title="厨盆/水槽">厨盆/水槽</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufangguajian/" target="_blank" title="厨房挂件">厨房挂件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-qitapeijian/" target="_blank" title="其他厨房配件">其他厨房配件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-dingzhichugui/" target="_blank" title="定制橱柜">定制橱柜</a> </span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.meilele.com/category-chufangyongpin/" class="red">厨房用品</a></dt>
+                        <dd>
+                            <span>| <a href="http://www.meilele.com/category-jiaofa/" target="_blank" title="角阀">角阀</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufanglongtou/" target="_blank" title="厨房龙头">厨房龙头</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chupenshuicao/" target="_blank" title="厨盆/水槽">厨盆/水槽</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufangguajian/" target="_blank" title="厨房挂件">厨房挂件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-qitapeijian/" target="_blank" title="其他厨房配件">其他厨房配件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-dingzhichugui/" target="_blank" title="定制橱柜">定制橱柜</a> </span>
+                        </dd>
+                    </dl>
+
+                </div>
+                <div class='item hide' float-id='three'>
+                    <dl>
+                        <dt><a href="http://www.meilele.com/category-chufangyongpin/" class="red">厨房用品</a></dt>
+                        <dd>
+                            <span>| <a href="http://www.meilele.com/category-jiaofa/" target="_blank" title="角阀">角阀</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufanglongtou/" target="_blank" title="厨房龙头">厨房龙头</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chupenshuicao/" target="_blank" title="厨盆/水槽">厨盆/水槽</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufangguajian/" target="_blank" title="厨房挂件">厨房挂件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-qitapeijian/" target="_blank" title="其他厨房配件">其他厨房配件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-dingzhichugui/" target="_blank" title="定制橱柜">定制橱柜</a> </span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="http://www.meilele.com/category-chufangyongpin/" class="red">厨房用品</a></dt>
+                        <dd>
+                            <span>| <a href="http://www.meilele.com/category-jiaofa/" target="_blank" title="角阀">角阀</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufanglongtou/" target="_blank" title="厨房龙头">厨房龙头</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chupenshuicao/" target="_blank" title="厨盆/水槽">厨盆/水槽</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-chufangguajian/" target="_blank" title="厨房挂件">厨房挂件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-qitapeijian/" target="_blank" title="其他厨房配件">其他厨房配件</a> </span>
+                            <span>| <a href="http://www.meilele.com/category-dingzhichugui/" target="_blank" title="定制橱柜">定制橱柜</a> </span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="pg-content clearfix" style="background: #faf6f7;">
+    <div class="container narrow pt20">
+        <div class="admin-menu left">
+            <div class='title' style='background-color:#c9033b;color: #fff;font-size:18px;text-align:center;padding:0px;'>
+                <span>我  的  商  城</span>
+            </div>
+            <div class="title">订单中心</div>
+            <ul class="body">
+                <li class='current'><a href="http://www.autohome.com.cn">我的订单</a></li>
+                <li><a href="http://www.autohome.com.cn">我的购物车</a></li>
+            </ul>
+            <div class="title">账户中心</div>
+            <ul class="body">
+                <li><a href="http://www.autohome.com.cn">账户信息</a></li>
+                <li><a href="http://www.autohome.com.cn">账户安全</a></li>
+            </ul>
+        </div>
+        <div class="admin-content right">
+            <div class="content-box">
+                <div class="info">
+                    <span class="icon icon_alert"></span>提醒：
+                    <a href="/user/?act=order_list&amp;composite_status=100&amp;order_sn=&amp;act=order_list">待付款订单 (<span class="red">0</span>)</a>
+                    &nbsp;
+                    <a href="/user/?act=order_list&amp;composite_status=8&amp;order_sn=&amp;act=order_list">待确认收货订单  (<span class="red">0</span>)</a>
+                    &nbsp;
+                    <a href="/user/?act=order_list&amp;composite_status=101&amp;order_sn=&amp;act=order_list">待发货订单(<span class="red"></span>)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pg-bottom">
+    <div class="container narrow bg">
+        <div class="content">
+            <div class="content-left" style='width: 155px;'>
+                <h4>24小时服务热线</h4>
+                <p>400 0098666</p>
+            </div>
+            <div class="content-center">
+                <table cellspacing="0" cellpadding="0">
+                    <tbody>
+                    <tr>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">关于垂标网</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-12/article-5224.html" target="_blank" title="公司简介">公司简介</a>
+                                    <a href="/article_cat-12/article-5228.html" target="_blank" title="CEO致辞">CEO致辞</a>
+                                    <a href="/article_cat-12/article-5225.html" target="_blank" title="体验馆">体验馆</a>
+                                    <a href="/article_cat-12/article-830.html" target="_blank" title="诚聘英才">诚聘英才</a>
+                                    <a href="/article_cat-12/article-4615.html" target="_blank" title="联系我们">联系我们</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">新手指南</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-6/article-5404.html" target="_blank" title="注册新用户">注册新用户</a>
+                                    <a href="/article_cat-6/article-101.html" target="_blank" title="订购家具流程">订购家具流程</a>
+                                    <a href="/article_cat-6/article-5280.html" target="_blank" title="体验馆购买指导">体验馆购买指导</a>
+                                    <a href="/article_cat-6/article-624.html" target="_blank" title="付款方式">付款方式</a>
+                                    <a href="/article_cat-6/article-646.html" target="_blank" title="常见问题解答">常见问题解答</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">配送安装</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-23/article-5405.html" target="_blank" title="收货指南">收货指南</a>
+                                    <a href="/article_cat-23/article-3206.html" target="_blank" title="体验馆服务费">体验馆服务费</a>
+                                    <a href="/article_cat-23/article-618.html" target="_blank" title="物流配送">物流配送</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">售后服务</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-26/article-620.html" target="_blank" title="45天无理由退换货">45天无理由退换货</a>
+                                    <a href="/article_cat-26/article-621.html" target="_blank" title="如何申请退款">如何申请退款</a>
+                                    <a href="/article_cat-26/article-2838.html" target="_blank" title="维修补件说明">维修补件说明</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                        <td>
+                            <dl class="dl">
+                                <dt class="dt">购物保障</dt>
+                                <dd class="dd">
+                                    <a href="/article_cat-15/article-2880.html" target="_blank" title="正品保证">正品保证</a>
+                                    <a href="/article_cat-15/article-300.html" target="_blank" title="注册协议">注册协议</a>
+                                    <a href="/article_cat-15/article-298.html" target="_blank" title="隐私保护">隐私保护</a>
+                                    <a href="/article_cat-15/article-297.html" target="_blank" title="免责声明">免责声明</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td><div class="line"></div></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="content-right" style='width: 112px;'>
+                <h4 class="title">垂标微信公众号</h4>
+                <div class="img">
+                    <a href="/topic/meilelegw.html" target="_blank">
+                        <img src="" width="100" height="100">
+                    </a>
+                </div>
+                <p>扫一扫，关注有礼</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+</div>
+
+<script src="../../js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+        function show_menu(arg) {
+            $(arg).find(".down").addClass("up").removeClass("down");
+            $(arg).find(".hide").addClass("show").removeClass("hide");
+        }
+function hide_menu(arg) {
+    $(arg).find(".up").addClass("down").removeClass("up");
+    $(arg).find(".show").addClass("hide").removeClass("show");
+}
+</script>
+<script src='../../plugins/bxSlider/jquery.bxslider.min.js'></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.bxslider').bxSlider();
+        $("#predicate_menu").children().bind("mouseover", function () {
+            $menu = $(this);
+            $content = $("#predicate_content").find('div[content="' + $(this).attr("content") + '"]');
+            $menu.addClass('current').siblings().removeClass('current');
+            $content.removeClass('hide').siblings().addClass('hide');
+        });
+        cart();
+        ChangeTab('#tab-menu-title', '#tab-menu-body');
+        Change_Menu('#all_menu_catagory','#nav_all_menu', '#nav_all_content');
+    });
+
+
+
+    function cart() {
+        $("#JS_header_cart_handler").mouseover(function () {
+            $("#JS_header_cart_handler").addClass("hover"); //箭头
+            $("#JS_header_cart_list").css("display", "block");
+            $("#JS_header_cart_list #noGoods").css("display", "block");
+        });
+        $("#JS_header_cart_handler").mouseout(function () {
+            $("#JS_header_cart_handler").removeClass("hover");
+            $("#JS_header_cart_list").css("display", "none");
+            $("#JS_header_cart_list #noGoods").css("display", "none");
+
+        });
+    }
+
+    function ChangeTab(title, body) {
+        $(title).children().bind("click", function () {
+            $menu = $(this);
+            $content = $(body).find('div[content="' + $(this).attr("content-to") + '"]');
+            $menu.addClass('current').siblings().removeClass('current');
+            $content.removeClass('hide').siblings().addClass('hide');
+        });
+    }
+
+    function Change_Menu(all_menu_catagory,menu, content) {
+        $all_menu_catagory = $(all_menu_catagory)
+        $menu = $(menu);
+        $content = $(content);
+
+        $all_menu_catagory.bind("mouseover", function () {
+            $menu.parent().removeClass('hide');
+        });
+        $all_menu_catagory.bind("mouseout", function () {
+            $menu.parent().addClass('hide');
+        });
+
+        $menu.children().bind("mouseover", function () {
+            $menu.parent().removeClass('hide');
+            $item_content = $content.find('div[float-id="' + $(this).attr("float-content") + '"]');
+            $item_content.removeClass('hide').siblings().addClass('hide');
+        });
+        $menu.bind("mouseout", function () {
+            $content.children().addClass('hide');
+            $menu.parent().addClass('hide');
+        });
+        $content.children().bind("mouseover", function () {
+            $menu.parent().removeClass('hide');
+            $(this).removeClass('hide');
+        });
+        $content.children().bind("mouseout", function () {
+            $(this).addClass('hide');
+            $menu.parent().addClass('hide');
+        });
+    }
+</script>
+</body>
+</html>

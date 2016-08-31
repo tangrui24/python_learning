@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Site administration | Django site admin</title>
+    <link rel="stylesheet" type="text/css" href="/static/crm/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/crm/css/base.css">
+    <link rel="stylesheet" type="text/css" href="/static/crm/css/dashboard.css">
+    <meta name="robots" content="NONE,NOARCHIVE">
+</head>
+<body class=" dashboard">
+<div id="header">
+        <div id="branding">
+<h1 id="site-name"><a href="/crm">学员 Crm管理系统</a></h1>
+        </div>
+        <div id="user-tools">
+                Welcome,
+                <strong>{{ user }}</strong>.
+                    <a href="/crm">View site</a> /
+                <a href="">Change password</a> /
+                <a href="/crm/logout">Log out</a>
+        </div>
+    </div>
+{% block context %}
+{% endblock %}
+<script type="text/javascript" src="/static/crm/js/bootstrap/js/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="/static/crm/js/crm/crm.js"></script>
+<script type="text/javascript" href="/static/crm/js/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+﻿/*内容开始*/
+.pg-content{
+    padding: 20px 0 0 0 ;
+}
+
+.pg-content .content-floor .floor-header{
+    height:35px;
+}
+
+.pg-content .content-floor .floor-header .floor{
+    display: inline-block;
+    height: 35px;
+    width: 145px;
+    background: url(../images/index/bg8.png) 0 -306px no-repeat;
+}
+.pg-content .content-floor .floor-header .floor-1 {
+    background-position: 0 -270px;    
+}
+.pg-content .content-floor .floor-header .floor-2 {
+    background-position: 0 -306px no-repeat;
+    
+}
+
+.pg-content .content-floor .floor-header .floor-3 {
+    background-position: 0 -306px no-repeat; 
+}
+.pg-content .content-floor .floor-header  .right{
+    padding-top: 6px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+}
+
+.pg-content .content-floor .floor-header .more{
+    color: #c9033b;
+    background: url(/images/index/bg8.png) -206px -167px no-repeat;
+    display: inline-block;
+    height: 30px;
+    padding-right: 18px;
+}
+
+.pg-content .content-floor .floor-body{
+    padding: 4px 3px;
+    background: #fff;
+    border:  1px solid #ddd;
+    margin-top: 2px;
+    
+}
+.pg-content .content-floor .floor-body .item {
+    font-family: "Microsoft Yahei","SimSong";
+    margin:4px;
+    border:1px solid #ddd;
+    width:187px;
+    height:250px;
+    float:left;
+    color:#333;
+}
+.pg-content .content-floor .floor-body .double-item {
+    font-family: "Microsoft Yahei","SimSong";
+    margin:4px;
+    border:1px solid #ddd;
+    width:384px;
+    height:250px;
+    float:left;
+    color:#333;
+}
+.pg-content .content-floor .floor-body .double-item .img{
+    overflow:hidden;
+    width:384px;
+    height:190px;
+}
+
+.pg-content .content-floor .floor-body a:hover {
+    border:1px solid #999;
+}
+.pg-content .content-floor .floor-body .item .img{
+    overflow:hidden;
+    width:187px;
+    height:190px;
+}
+
+.pg-content .content-floor .floor-body .item .brand, .pg-content .content-floor .floor-body .double-item .brand{
+    text-align:center;
+    height:25px;
+    line-height:25px;
+    font-size:12px;
+}
+
+.pg-content .content-floor .floor-body .item .price, .pg-content .content-floor .floor-body .double-item .price{
+    text-align:center;
+    height:35px;
+    line-height:35px;
+    font-size:14px;
+}
+/*内容结束*/
